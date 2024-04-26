@@ -12,7 +12,7 @@ jobs:
         id: my-action
         uses: ./
         with:
-          who: '@wulfland'
+          who: '@dustindortch'
 
       - name: Answer
         run: echo "The answer is ${{ steps.my-action.outputs.answer }}"
