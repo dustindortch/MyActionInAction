@@ -1,5 +1,8 @@
 name: "Dustin's Action in Action"
 description: 'Greets someone and always returns 42.'
+branding:
+  icon: 'alert-triangle'
+  color: 'orange'
 inputs:
   who:
     description: 'Who to greet'
