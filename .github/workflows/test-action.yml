@@ -8,7 +8,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3.5.3
 
-      - name: Run my own continaer action
+      - name: Run my own container action
         id: my-action
         uses: ./
         with:
